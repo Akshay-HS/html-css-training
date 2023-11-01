@@ -158,6 +158,12 @@ button {
   margin-top: -50px;
   display: flex;
 }
+#d-head {
+  padding-left: 100px;
+  margin-top: -50px;
+  display: flex;
+  padding-bottom: 10px;
+}
 .d-head {
   padding: 30px;
   width: 25%;
@@ -262,8 +268,76 @@ button {
 #spbutton
 {
   margin-top: 30px;
-  margin-left: 39%;
+  margin-left: 40%;
   font-size: 2px;
   padding:-10px;
   width: 200px;
+}
+#fac {
+  margin-top: 80px;
+  margin-left: 100px;
+}
+#fac-img {
+  display: flex;
+}
+.f-img {
+  padding: 30px;
+  width: 25%;
+  height: 25%;
+}
+#f-head {
+  padding-left: 100px;
+  margin-top: -50px;
+  display: flex;
+  padding-bottom: 10px;
+ 
+}
+.f-head {
+  padding: 30px;
+  width: 25%;
+  margin-left: 390px;
+}
+#fac-desc {
+  font-size: small;
+  display: flex;
+}
+#int {
+  margin-top: 10px;
+  margin-left: -5px;
+}
+#int-img {
+  display: flex;
+}
+.i-img {
+  padding: 30px;
+  width: 25%;
+  height: 25%;
+}
+#int-head {
+  margin-top: -50px;
+  display: flex;
+}
+#i-head {
+  padding-left: 100px;
+  margin-top: -50px;
+  display: flex;
+  padding-bottom: 10px;
+}
+.i-head {
+  padding: 30px;
+  width: 25%;
+}
+#int-desc {
+  font-size: small;
+  display: flex;
+}
+.i-desc {
+  margin-top: -30px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.i-read
+{
+  color: rgb(33, 189, 137);
 }
