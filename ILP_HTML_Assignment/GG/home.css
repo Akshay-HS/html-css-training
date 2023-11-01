@@ -1,0 +1,269 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+#header-icon {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+}
+#img-gg {
+  width: 120px;
+  height: 50px;
+  margin-top: 17px;
+}
+#nav {
+  margin-left: 50px;
+  display: flex;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+}
+#home-nav {
+  color: red;
+}
+.navbar a:hover {
+  background-color: rgb(231, 229, 229); /* Hover background color */
+}
+#doctor-image {
+  position: relative;
+  width: 88%;
+  padding-left: 60px;
+  height: 70%;
+  z-index: 0;
+}
+#main-text {
+  font-size: 25px;
+  position: absolute;
+  bottom: 200px;
+  left: 200px;
+}
+#main-sub {
+  position: absolute;
+  bottom: 170px;
+  left: 200px;
+}
+#book-button-link {
+  background-color: rgb(33, 189, 137);
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2%;
+}
+#book-button {
+  position: absolute;
+  bottom: 110px;
+  left: 200px;
+}
+#play {
+  position: absolute;
+  bottom: 122px;
+  left: 400px;
+}
+#doc-talk {
+  position: absolute;
+  bottom: 107px;
+  left: 420px;
+  text-decoration: underline;
+}
+#arrow {
+  margin-top: 12px;
+  margin-left: -10px;
+}
+#main-image {
+  z-index: 0;
+}
+.custom-form {
+  position: absolute;
+  border: solid white;
+  margin-top: -100px;
+  margin-left: 160px;
+  z-index: 15;
+  background-color: white;
+  border-radius: 25px;
+  width: 70%;
+  padding-bottom: 50px;
+  box-shadow: 1px 10px 10px 3px rgb(211, 211, 211);
+}
+
+h2 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 30%; /* Adjust width as needed */
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  background-color: rgb(33, 189, 137);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.row {
+  margin: 10px;
+}
+#overflow {
+  position: relative;
+}
+
+#department {
+  margin-top: 250px;
+  margin-left: 100px;
+}
+#dept-img {
+  display: flex;
+}
+.d-img {
+  padding: 30px;
+  width: 25%;
+  height: 25%;
+}
+#dept-head {
+  margin-top: -50px;
+  display: flex;
+}
+.d-head {
+  padding: 30px;
+  width: 25%;
+}
+#dept-desc {
+  font-size: small;
+  display: flex;
+}
+.d-desc {
+  margin-top: -30px;
+  padding: 10px;
+  margin-left: 20px;
+}
+#dept-read {
+  display: flex;
+  color: rgb(33, 189, 137);
+  text-decoration: underline;
+  font-size: small;
+}
+.readmore {
+  padding: 150px;
+  margin-top: -150px;
+  margin-left: -50px;
+  text-align: left;
+}
+#why {
+  background-color: rgb(218, 233, 246);
+  display: flex;
+  margin-top: -100px;
+  width: fit-content;
+  margin-left: 100px;
+  padding-right: 50px;
+}
+#why-img {
+  margin-left: 50px;
+}
+.gc {
+  display: block;
+  padding-bottom: 50px;
+}
+#why-ul {
+  margin-top: -400px;
+  padding-bottom: -400px;
+}
+.why-li {
+  margin-top: 50px;
+  list-style: none;
+}
+
+#special {
+  margin-top: 200px;
+  margin-left: 100px;
+  display: block;
+}
+
+#special-head {
+  padding-left: 450px;
+}
+#special-p {
+  padding-top: -100px;
+  padding-left: 420px;
+}
+#special-img {
+  display: block;
+}
+.sp-im {
+  width: 250px;
+}
+#special-names
+{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 50px;
+  margin-right: 200px;
+}
+#special-sp
+{
+
+  font-size: small;
+  margin-top: -10px;
+}
+.spsp
+{
+
+  display: inline-flex;
+  text-align:center;
+  padding-left: 150px; 
+}
+#sp1
+{
+  margin-left: -110px;
+}
+#sp3
+{
+  margin-left: -20px;
+}
+#sp4
+{
+  margin-left: -25px;
+}
+#spbutton
+{
+  margin-top: 30px;
+  margin-left: 39%;
+  font-size: 2px;
+  padding:-10px;
+  width: 200px;
+}

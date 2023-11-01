@@ -1,0 +1,160 @@
+#title-name
+{
+  text-align: center;
+}
+#nav {
+    list-style-type: none;
+    padding-left: 29%;
+    padding-right: 28%;
+    position: fixed;
+    background-color: rgb(147, 219, 219);
+    transition: transform;
+  }
+  #nav :hover
+  {
+    background-color: white;
+    transform: scale(1.11);
+  }
+
+  li
+{
+    float: left;
+    
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:rgb(147, 219, 219);
+  }
+  #about
+  {
+    text-align: center;
+    margin-left: 10%;
+    height: 200px;
+    margin-top: 200px;
+  }
+  img{
+    width: 500px;
+    border-radius: 2%;
+  }
+  #image
+  {
+    float: left;
+  }
+  #image :hover
+  {
+    box-shadow: 10px 10px 10px 10px rgb(147, 219, 219);
+  }
+  #carrer-goal
+  {
+    padding-top:200px;
+    padding-left: 50px;
+    float: left;
+    font-size: large;
+  }
+  #carrer-goal :hover
+  {
+    box-shadow: 10px 10px 10px 10px rgb(147, 219, 219);
+  }
+  #my-contact
+  {
+    
+    margin-top: 300px;
+    border: 1px solid;
+    text-align: center;
+    width: max-content;
+    margin-left: 40%;
+    padding: 20px;
+    border-radius: 10%;
+  }
+  #contact :hover
+  {
+    box-shadow: 2px 2px 2px 2px rgb(147, 219, 219);
+    border-radius: 0%;
+  }
+  #qualification{
+    font-size: large;
+    text-align: center;
+    margin-left: 420px;
+    margin-top: 50px;
+    border: solid black;
+    width: max-content;
+    border-width: 1px;
+    padding: 20px;
+    border-radius: 10%;
+  }
+ #qualification :hover
+  {
+      box-shadow: 2px 2px 2px 2px rgb(147, 219, 219);
+      border-radius: 0%;
+  }
+
+#experience
+{
+  font-size: large;
+    text-align: center;
+    margin-left: 435px;
+    margin-top: 50px;
+    border: solid black;
+    width: max-content;
+    border-width: 1px;
+    padding: 20px;
+    border-radius: 10%;
+}
+#experience :hover
+  {
+      box-shadow: 2px 2px 2px 2px rgb(147, 219, 219);
+      border-radius: 0%;
+  }
+
+#skills
+{
+  font-size: large;
+    text-align: center;
+    margin-left: 515px;
+    margin-top: 50px;
+    border: solid black;
+    width: max-content;
+    border-width: 1px;
+    padding: 20px;
+    border-radius: 10%;
+}
+#skills:hover
+{
+  box-shadow: 10px 10px 10px 10px rgb(147, 219, 219);
+  border-radius: 0%;
+}
+#projects
+{
+  font-size: large;
+    text-align: center;
+    margin-left: 420px;
+    margin-top: 50px;
+    border: solid black;
+    width: max-content;
+    border-width: 1px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+}
+#project-table
+{
+  text-align: left;
+}
+#projects:hover
+{
+  box-shadow: 10px 10px 10px 10px rgb(147, 219, 219);
+  border-radius: 0%;
+}
+footer{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+

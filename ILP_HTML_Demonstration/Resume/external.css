@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+}
+
+#title
+{
+    margin-top: 40px;
+    height: 150px;
+    background-color: rgb(84, 174, 174);
+    margin-left: 60px;
+    margin-right: 40%;
+    border-radius: 20%;
+}
+img {
+
+    text-align: left;
+    height: 200px;
+    margin-top: -20px;
+    margin-left: -15px;
+    border-radius: 210%;
+  }
+#name {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-right: 10%;
+  margin-top: 50px;
+  float: right;
+ 
+}
+#info {
+  padding-top: 5%;
+  color: black;
+  float: left;
+  width: 30%;
+}
+
+#details {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(84, 174, 174);
+  float: right;
+  margin-top: 5%;
+  width: 60%;
+  padding: 20px;
+
+}
+#skills {
+  border: solid rgb(84, 174, 174);
+  margin-right: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5%;
+
+}
+#contact
+{
+    border: solid rgb(84, 174, 174);
+    border-radius: 5%;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+table{
+    border-color: azure;
+}
